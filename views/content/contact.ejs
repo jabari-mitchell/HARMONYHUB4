@@ -1,0 +1,46 @@
+
+
+
+<section id="welcome-container">
+    <div id="welcome-text">
+        <h1>WELCOME TO HARMONY HUB!</h1>
+        <p> Marcus Rashford,  647 345 8565, rashfordmarcus@hotmail.com.
+        </p>
+    </div>
+</section>
+
+
+<div class="container">
+    <h1 class="mb-5">Contact Us</h1>
+    <div class="row justify-content-lg-center g-3"></div>
+
+    <form class="col-lg-6 col-md-10 col-sm-10" onsubmit="return validateForm()">
+        <div class="input-group-mb-3">
+            <span class="input-group-text">Full Name</span>
+            <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="Full Name" aria-label="Full Name Input" required>
+        </div>
+
+
+        <div class="input-group-mb-3">
+            <span class="input-group-text">Email Address</span>
+            <input id="emailAddress" name="emailAddress" type="email" class="form-control" aria-describedby="Full Name" aria-label="Email Address Input" required>
+        </div>
+
+        <div class="input-group-mb-3">
+            <span class="input-group-text">Subject</span>
+            <textarea id="subject" name="message" class="form-control" aria-describedby="Message area" aria-label="Message area Input" required></textarea>
+        </div>
+
+        <div class="input-group-mb-3">
+            <span class="input-group-text">Your Message</span>
+            <textarea id="message" name="message" class="form-control" aria-describedby="Message area" aria-label="Message area Input" required></textarea>
+        </div>
+
+        <br>
+        <button id="sendButton" type="submit" class="btn btn-primary"> <i class="fa-solid fa-envelope"></i> Submit</button>
+        <button id="cancelButton" type="reset" class="btn btn-warning"> <i class="fa-solid fa-rotate-left"></i> Cancel</button>
+    </form>
+    <br>
+
+</div>
+
